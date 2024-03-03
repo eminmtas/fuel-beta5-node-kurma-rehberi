@@ -33,7 +33,7 @@ $HOME/.cargo/env
 curl https://install.fuel.network | sh
 ```
 
-Kurulum bittikten sonra çıktıdaki `source` ile başlayan kodu kopyala yapıştır yapıp enterlıyoruz. Bunu yapmazsanız habire hata alırsınız!
+Sizden `fuelup-init` için dosya yolunuzu değiştirmek isteyecektir, `y` yazıp enterlıyoruz. Kurulum bittikten sonra çıktıdaki `source` ile başlayan kodu kopyala yapıştır yapıp enterlıyoruz. Bunu yapmazsanız habire hata alırsınız!
 
 ## Alchemy ya da Infura'dan API Key/RPC alıyoruz
 
@@ -100,7 +100,7 @@ fuel-core run \
 --relayer-da-deploy-height 4867877 \
 --relayer-log-page-size 2000
 ```
-
+---
 ![Loglar](loglar.png)
 
 Loglar yukarıdaki gibi akıyorsa Tebrikler, node başarılı bir şekilde kuruldu. Otomatik olarak senkron olacak. Gizli kelimelerinizi bir yere kaydetmeyi ve beni takip etmeyi unutmayın :)
