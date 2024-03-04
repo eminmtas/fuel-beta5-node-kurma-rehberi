@@ -24,7 +24,7 @@ Birkaç seçenek çıkacak. 1 yazıp enterlıyoruz.
 
 Kurulum bittikten sonra şu kodu kullanın:
 ```bash
-source "$HOME/.cargo/env"
+source $HOME/.cargo/env
 ```
 
 ## Fuel Servislerini Yüklüyoruz
